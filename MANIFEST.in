@@ -1,0 +1,4 @@
+include uv.lock
+recursive-include docs *
+recursive-include ops *
+include LICENSE

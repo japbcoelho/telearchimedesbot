@@ -1,0 +1,11 @@
+[Unit]
+Description=Timer de backup do TeleArchimedesBot
+
+[Timer]
+OnCalendar=*-*-* 03:43:00
+RandomizedDelaySec=17m
+Persistent=true
+Unit=telearchimedesbot-backup.service
+
+[Install]
+WantedBy=timers.target

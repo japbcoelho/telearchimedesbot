@@ -1,0 +1,20 @@
+BOT_API_BASE_URL=https://api.telegram.org
+DATA_PATH=/var/lib/telearchimedesbot/stars.sqlite3
+TIMEZONE=America/Sao_Paulo
+DAILY_STAR_LIMIT=3
+WEEKLY_RANKING_WEEKDAY=6
+WEEKLY_RANKING_HOUR=20
+WEEKLY_RANKING_MINUTE=0
+QUESTION_DIGEST_THREAD_ID=0
+QUESTION_DIGEST_HOURS=15
+ALLOWED_CHAT_IDS=
+# Public group @usernames served besides ALLOWED_CHAT_IDS.
+ALLOWED_CHAT_USERNAMES=
+# 1 serves every group; otherwise only the listed ones (none when both lists are empty).
+ALLOW_ALL_GROUPS=0
+# Users who still get a reply in private (everyone else gets none).
+OWNER_USER_IDS=
+PRIVATE_CHAT_NOTICE=Este bot só funciona nos grupos autorizados.
+# Bots whose author footer is trusted for stars.
+TRUSTED_FOOTER_BOT_USERNAMES=telelatexbot
+TELEARCHIMEDES_STRICT_CONFIG=1
